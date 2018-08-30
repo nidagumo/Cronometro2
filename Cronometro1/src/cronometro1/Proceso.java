@@ -27,7 +27,7 @@ public class Proceso extends Valores {
             }
         }
     }
-    public void alarma() throws InterruptedException{
+    public void retroceder() throws InterruptedException{
     for(mil = 0;mil <= 10 ;mil++){
             Thread.sleep(1);
             System.out.println(h+":"+(60-m)+ ":"+(60-s)+":"+(10-dec)+":"+(10-cen)+":"+(10-mil));
@@ -52,8 +52,7 @@ public class Proceso extends Valores {
                 }
             }
         }
-    }
-    
+    }   
 }
 
 

@@ -6,12 +6,6 @@ public class Valores {
     protected int s;
     protected int m;
     protected int h;
-    protected int mila;
-    protected int cena;
-    protected int deca;
-    protected int sa;
-    protected int ma;
-    protected int ha;
     public void setmil(){
         this.mil = 0;
     }
@@ -29,23 +23,5 @@ public class Valores {
     }
     public void seth(){
         this.h = 0;
-    }
-    public void setmila(int valor){
-        this.mila = valor;
-    }
-    public void setcena(int valor){
-        this.cena = valor;
-    }
-    public void setdeca(int valor){
-        this.deca = valor;
-    }
-    public void setma(int valor){
-        this.ma = valor;
-    }
-    public void setsa(int valor){
-        this.sa = valor;
-    }
-    public void setha(int valor){
-        this.ha = valor;
     }
 }
