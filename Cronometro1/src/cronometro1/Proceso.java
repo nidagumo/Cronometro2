@@ -3,7 +3,7 @@ package cronometro1;
 public class Proceso extends Valores {
     public void avanzar() throws InterruptedException{
         for(mil = 0;mil <= 10 ;mil++){
-            Thread.sleep(100);
+            Thread.sleep(1);
             System.out.println(h+":"+m+ ":"+s+":"+dec+":"+cen+":"+mil);
             if (mil == 10){
                 mil = 0;
